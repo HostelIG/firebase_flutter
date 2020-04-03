@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "498817698165",
+    "firebase_url": "https://thinqbator-12c11.firebaseio.com",
+    "project_id": "thinqbator-12c11",
+    "storage_bucket": "thinqbator-12c11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498817698165:android:ec18e042d06f3e7f59ab3c",
+        "android_client_info": {
+          "package_name": "generatorapp.generator_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498817698165-t6j0f43cvo1sjtpe7rsehgktg0b2ht8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0xzwmZzJssBHlrz3EEDC2aN3fHug3eZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498817698165-t6j0f43cvo1sjtpe7rsehgktg0b2ht8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
