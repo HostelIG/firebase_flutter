@@ -1,4 +1,4 @@
-package generatorapp.generator_app;
+package flutter.firebase_app;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity;

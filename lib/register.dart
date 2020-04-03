@@ -57,7 +57,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     colors: [Colors.blue, Colors.red])),
             padding: const EdgeInsets.all(20.0),
             child: SingleChildScrollView(
-
+            child: Form(
               key: _registerFormKey,
               child: Column(
                 children: <Widget>[
@@ -111,7 +111,7 @@ class _RegisterPageState extends State<RegisterPage> {
                               email: emailInputController.text,
                               password: pwdInputController.text)
                               .then((currentUser) => Firestore.instance
-                              .collection("locs")
+                              .collection("numbers")
                               .document(currentUser.user.uid)
                               .setData({
                             "email": emailInputController.text
@@ -163,6 +163,6 @@ class _RegisterPageState extends State<RegisterPage> {
                   SizedBox(height:100),
                 ],
               ),
-            )));
+            ))));
   }
 }

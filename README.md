@@ -1,4 +1,4 @@
-# generator_app
+# firebase_app
 
 A new Flutter application.
 
